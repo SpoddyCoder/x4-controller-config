@@ -23,11 +23,11 @@ In addition to the benefits of treating this like code in source control, there 
 * If you want to track your changes in git, see [Setup For Dev](#setup-for-dev).
 
 ## Version History: `versions/`
-* (158_1_eillis.xml)[./versions/158_1_eillis.xml] - Eillis' original config. `v158` spec, 1st profile slot.
-* (185_1_default.xml)[./versions/185_1_default.xml] - latest default config shipped with the game. `v185` spec, 1st profile slot.
-* (185_5_default-eillis.xml)[./versions/185_5_default-eillis.xml] - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
-* (185_5_default-eillis-remap.xml)[./versions/185_5_default-eillis-remap.xml] - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout. `v185` spec, 5th profile slot.
-* (185_4_spoddycoder.xml)[./versions/185_4_spoddycoder.xml] - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
+* [158_1_eillis.xml](./versions/158_1_eillis.xml) - Eillis' original config. `v158` spec, 1st profile slot.
+* [185_1_default.xml](./versions/185_1_default.xml) - latest default config shipped with the game. `v185` spec, 1st profile slot.
+* [185_5_default-eillis.xml](./versions/185_5_default-eillis.xml) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
+* [185_5_default-eillis-remap.xml](./versions/185_5_default-eillis-remap.xml) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout. `v185` spec, 5th profile slot.
+* [185_4_spoddycoder.xml](./versions/185_4_spoddycoder.xml) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
 
 
 ## Setup For Dev

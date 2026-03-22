@@ -1,5 +1,12 @@
 # Changelog
 
+
+## v1.2.1 Candidate
+
+### Modified
+* Updated spoddycoder profile with more prefernce tweaks
+
+
 ## v1.2.0 Release
 
 ### Added

@@ -8,8 +8,6 @@ In addition to the benefits of treating this like code in source control, there 
   * See [changelog](./CHANGELOG.md).
 * Preserve default keyboard + mouse functionality for seamless mixed use.
   * See (Modified Steam Controller Layout)[#modified-steam-controller-layout] for more details.
-  * NOTE: this is only appllied to the `spoddycoder` profile atm. TODO: apply to `default-ellis` & `inputmap_5.xml`
-  * TODO: reinstate controls that Eillis had to remove to make room for the modifiers.
 
 
 ## Usage
@@ -51,40 +49,42 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 
 
 ## Modified Steam Controller Layout: `SpoddyCoder-X4-Layout`
-To preserve standard keyboard controls, we need to use different modifiers keys. My steam controller layout can be found in the community setups.
-It remaps Eillis' orginals to use new unused keys...
+* To preserve standard keyboard controls, we need to use different modifiers keys. My steam controller layout can be found in the community setups.
+* NOTE: this is only applied to the `spoddycoder` & `default-ellis-remamp` versions - `inputmap_5.xml` continues to use Eillis' original controller layout.
+  * TODO: reinstate all the controls that Eillis had to remove to make room for the modifiers.
+* It remaps Eillis' orginals to use new unused keys...
 * W -> ;
-  * INPUT_KEYCODE_W -> INPUT_KEYCODE_SEMICOLON
-  * INPUT_KEYCODE_W_SHIFT -> INPUT_KEYCODE_SEMICOLON_SHIFT
-  * INPUT_KEYCODE_W_CONTROL -> INPUT_KEYCODE_SEMICOLON_CONTROL
+  * `INPUT_KEYCODE_W` -> `INPUT_KEYCODE_SEMICOLON`
+  * `INPUT_KEYCODE_W_SHIFT` -> `INPUT_KEYCODE_SEMICOLON_SHIFT`
+  * `INPUT_KEYCODE_W_CONTROL` -> `INPUT_KEYCODE_SEMICOLON_CONTROL`
 * S -> '
-  * INPUT_KEYCODE_S -> INPUT_KEYCODE_APOSTROPHE
-  * INPUT_KEYCODE_S_SHIFT -> INPUT_KEYCODE_APOSTROPHE_SHIFT
-  * INPUT_KEYCODE_S_CONTROL -> INPUT_KEYCODE_APOSTROPHE_CONTROL
+  * `INPUT_KEYCODE_S` -> `INPUT_KEYCODE_APOSTROPHE`
+  * `INPUT_KEYCODE_S_SHIFT` -> `INPUT_KEYCODE_APOSTROPHE_SHIFT`
+  * `INPUT_KEYCODE_S_CONTROL` -> `INPUT_KEYCODE_APOSTROPHE_CONTROL`
 * Z -> [
-  * INPUT_KEYCODE_Z -> INPUT_KEYCODE_LBRACKET
-  * INPUT_KEYCODE_Z_SHIFT -> INPUT_KEYCODE_LBRACKET_SHIFT
-  * INPUT_KEYCODE_Z_CONTROL -> INPUT_KEYCODE_LBRACKET_CONTROL
+  * `INPUT_KEYCODE_Z` -> `INPUT_KEYCODE_LBRACKET`
+  * `INPUT_KEYCODE_Z_SHIFT` -> `INPUT_KEYCODE_LBRACKET_SHIFT`
+  * `INPUT_KEYCODE_Z_CONTROL` -> `INPUT_KEYCODE_LBRACKET_CONTROL`
 * U -> ]
-  * INPUT_KEYCODE_U -> INPUT_KEYCODE_RBRACKET
-  * INPUT_KEYCODE_U_SHIFT -> INPUT_KEYCODE_RBRACKET_SHIFT
-  * INPUT_KEYCODE_U_CONTROL -> INPUT_KEYCODE_RBRACKET_CONTROL
+  * `INPUT_KEYCODE_U` -> `INPUT_KEYCODE_RBRACKET`
+  * `INPUT_KEYCODE_U_SHIFT` -> `INPUT_KEYCODE_RBRACKET_SHIFT`
+  * `INPUT_KEYCODE_U_CONTROL` -> `INPUT_KEYCODE_RBRACKET_CONTROL`
 * C -> \
-  * INPUT_KEYCODE_C -> INPUT_KEYCODE_OEM_102
-  * INPUT_KEYCODE_C_SHIFT -> INPUT_KEYCODE_OEM_102_SHIFT
-  * INPUT_KEYCODE_C_CONTROL -> INPUT_KEYCODE_OEM_102_CONTROL
+  * `INPUT_KEYCODE_C` -> `INPUT_KEYCODE_OEM_102`
+  * `INPUT_KEYCODE_C_SHIFT` -> `INPUT_KEYCODE_OEM_102_SHIFT`
+  * `INPUT_KEYCODE_C_CONTROL` -> `INPUT_KEYCODE_OEM_102_CONTROL`
 * N -> /
-  * INPUT_KEYCODE_N -> INPUT_KEYCODE_SLASH
-  * INPUT_KEYCODE_N_SHIFT -> INPUT_KEYCODE_SLASH_SHIFT
-  * INPUT_KEYCODDE_N_CONTROL -> INPUT_KEYCODE_SLASH_CONTROL
+  * `INPUT_KEYCODE_N` -> `INPUT_KEYCODE_SLASH`
+  * `INPUT_KEYCODE_N_SHIFT` -> `INPUT_KEYCODE_SLASH_SHIFT`
+  * `INPUT_KEYCODDE_N_CONTROL` -> `INPUT_KEYCODE_SLASH_CONTROL`
 * L -> ,
-  * INPUT_KEYCODE_L -> INPUT_KEYCODE_COMMA
-  * INPUT_KEYCODE_L_SHIFT -> INPUT_KEYCODE_COMMA_SHIFT
-  * INPUT_KEYCODE_L_CONTROL -> INPUT_KEYCODE_COMMA_CONTROL
+  * `INPUT_KEYCODE_L` -> `INPUT_KEYCODE_COMMA`
+  * `INPUT_KEYCODE_L_SHIFT` -> `INPUT_KEYCODE_COMMA_SHIFT`
+  * `INPUT_KEYCODE_L_CONTROL` -> `INPUT_KEYCODE_COMMA_CONTROL`
 * R -> .
-  * INPUT_KEYCODE_R -> INPUT_KEYCODE_PERIOD
-  * INPUT_KEYCODE_R_SHIFT -> INPUT_KEYCODE_PERIOD_SHIFT
-  * INPUT_KEYCODE_R_CONTROL -> INPUT_KEYCODE_PERIOD_CONTROL
+  * `INPUT_KEYCODE_R` -> `INPUT_KEYCODE_PERIOD`
+  * `INPUT_KEYCODE_R_SHIFT` -> `INPUT_KEYCODE_PERIOD_SHIFT`
+  * `INPUT_KEYCODE_R_CONTROL` -> `INPUT_KEYCODE_PERIOD_CONTROL`
 
 
 ## Contributing

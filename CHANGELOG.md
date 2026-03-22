@@ -1,10 +1,17 @@
 # Changelog
 
-## v1.1.1 Candidate
+## v1.2.0 Candidate
+
+### Added
+* Add docs for all versions
+* Add `SpoddyCoder-X4-Layout` Steam Controller layout to community setups
+* TODO: Add `185_5_default-eillis-remap` version - Eillis-v185 config remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout
 
 ### Modified
 * Fixed Eillis-v185 configs: strafe right / fire weapon conflict
 * Updated spoddycoder profile from Eillis' base for my preferences
+* Updated spoddycoder profile to use the `SpoddyCoder-X4-Layout` Steam Controller layout
+* Update README
 
 
 ## v1.1.0 Release

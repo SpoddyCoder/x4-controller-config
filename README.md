@@ -12,7 +12,7 @@ In addition to the benefits of treating this like code in source control, there 
 
 ## Usage
 * Setup Steam controller support to use the `SpoddyCoder-X4-Layout` Steam Controller layout.
-  * See [Eillis' guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2954560643), but choose the `SpoddyCoder-X4-Layout` Steam Controller layout from the comunnity layouts instead.
+  * See [Eillis' guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2954560643), but choose the `SpoddyCoder-X4-Layout` from the community layouts instead.
 * Drag `inputmap_5.xml` into your `<Your documents>/Egosoft/X4/<numbers>/` folder.
   * If you're just the sort of person to have a 5th controller profile already, I probably don't need to tell you to take a backup before overwriting it.
 * Load the 5th controller profile in-game.
@@ -22,12 +22,14 @@ In addition to the benefits of treating this like code in source control, there 
 * Remember to save to profile 5 as you make changes, this will serve as your backup.
 * If you want to track your changes in git, see [Setup For Dev](#setup-for-dev).
 
-## Version History: `versions/`
-* [158_1_eillis.xml](./versions/docs/158_1_eillis.md) - Eillis' original config. `v158` spec, 1st profile slot.
-* [185_1_default.xml](./versions/docs/185_1_default.md) - latest default config shipped with the game. `v185` spec, 1st profile slot.
+## `versions/`
+* [158_1_eillis.xml](./versions/docs/158_1_eillis.md) - Eillis' original config.
+* [185_1_default.xml](./versions/docs/185_1_default.md) - latest default config shipped with the game.
 * [185_5_default-eillis.xml](./versions/docs/185_5_default-eillis.md) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
-* [185_5_default-eillis-remap.xml](./versions/docs/185_5_default-eillis-remap.md) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout. `v185` spec, 5th profile slot.
-* [185_4_spoddycoder.xml](./versions/docs/185_4_spoddycoder.md) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
+* [185_5_default-eillis-remap.xml](./versions/docs/185_5_default-eillis-remap.md) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout.
+* [185_4_spoddycoder.xml](./versions/docs/185_4_spoddycoder.md) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style.
+
+NOTE: the main `inputmap_5.xml` profile currently tracks `versions/185_5_default-eillis-remap.xml`. If you want to to use mine or any of the other versions, see below.
 
 
 ## Setup For Dev
@@ -35,7 +37,7 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 
 * Run `cmd` (as admin) and create a link to the config file in the game directory to wherever you've checked out the repo, eg:
 * `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\10112698\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\inputmap_5.xml"`
-* You can ofc use any of the versions, eg:
+* You can ofc use any of the versions, such as mine. eg:
 * `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\10112698\inputmap_4.xml" "C:\Users\{USERNAME}\x4-controller-config\versions\185_4_spoddycoder.xml"`
 * Don't forget to actually save the controller profile in-game after making changes.
 * Similarly, if you make changes to the file directly, you'll need to load it in-game.

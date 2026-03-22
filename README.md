@@ -19,20 +19,34 @@ TODO: Further modified for my preferences...
   * L trigger to run.
   * L stick press to crouch (L mouse button in Eillis' config).
 
-Docs and commit history should be helpful to anyone who wants to configure Eillis' setup to their own tastes. 
-Just fork the repo and start modifying your own.
-
 ## Usage
-* Setup Steam controller support per Eillis' guide.
+* Setup Steam controller support per [Eillis' guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2954560643).
 * Drag `inputmap_5.xml` into your `<Your documents>/Egosoft/X4/<numbers>/` folder.
-  * 5th controller profile.
-  * If you're just the sort of person to have a 5th controller profile, I probably don't need to tell you to take a backup before overwriting it.
-* See the configuration guide below for help modifying the profile.
+  * If you're just the sort of person to have a 5th controller profile already, I probably don't need to tell you to take a backup before overwriting it.
+* Load the 5th controller profile in-game.
+
+### Modifying
+* Docs and commit history should be helpful to anyone who wants to configure Eillis' setup to their own tastes. 
+* Remember to save to profile 5 as you make changes, this will serve as your backup.
+* If you want to track your changes in git, see [Setup For Dev](#setup-for-dev).
 
 ## Version History: (`versions/` directory)
 * `158_1_eillis.xml` - Eillis' original config. `v158` spec, 1st profile slot.
 * `185_1_default.xml` - latest default config shipped with the game. `v185` spec, 1st profile slot.
 * `185_5_default-eillis.xml` - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
+
+## Setup For Dev
+Making changes to the **in-game** `inputmap_5.xml` should be reflected directly in the checked out repo version, so we can see the diff and commit changes.
+
+* Run `cmd` (as admin) and create a link to the config file in the game directory to wherever you've checked out the repo...
+* `mklink "C:\Users\{USERNAME}}\Documents\Egosoft\X4\10112698\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\inputmap_5.xml"`
+
+### WSL dev limitations
+* Getting a link between a file located on the WSL instance and a file on the windows host is problematic - the two approaches you might try both have issues...
+  * Cannot simply move the repo to a windows mounted dirctory on the WSL instance - this has performance + other issues when using an IDE on the host.
+  * Not sure it's possible to have the windows host application (x4) access a file on a WSL instance filesystem.
+    * Even if you could - this would mean you now require the WSL instance running to use the config... not ideal.
+* Recommend you just use the windows host directly for this project.
 
 ## Eilli's Layout Reference
 When no modifier buttons are held:

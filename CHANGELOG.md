@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.1
+
+### Modified
+* all versions to have id and comment
+
+
 ## v1.0.0 Release
 
 ### ADDED

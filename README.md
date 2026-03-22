@@ -25,7 +25,7 @@ In addition to the benefits of treating this like code in source control, there 
 ## `versions/`
 * [158_1_eillis.xml](./versions/docs/158_1_eillis.md) - Eillis' original config.
 * [185_1_default.xml](./versions/docs/185_1_default.md) - latest default config shipped with the game.
-* [185_5_default-eillis.xml](./versions/docs/185_5_default-eillis.md) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
+* [185_5_default-eillis.xml](./versions/docs/185_5_default_eillis.md) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
 * [185_5_default-eillis-remap.xml](./versions/docs/185_5_default-eillis-remap.md) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout.
 * [185_4_spoddycoder.xml](./versions/docs/185_4_spoddycoder.md) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style.
 

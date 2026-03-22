@@ -1,5 +1,5 @@
 # Default + Eillis' Profile
-* [185_5_default_ellis.xml](../185_5_default_ellis.xml)
+* [185_5_default_ellis.xml](../185_5_default-eillis.xml)
 * `v185` spec, 5th profile slot.
 
 

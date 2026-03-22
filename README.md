@@ -4,7 +4,7 @@ Full controller support for X4 Foundations, with preserved keyboard + mouse func
 In addition to the benefits of treating this like code in source control, there are a couple of enhancements...
 
 * Updated the inputmap version `158` -> `185` (March 2026).
-  * [Merged with default config](versions/185_default-ellis.xml) to capture game updates to control bindings since 2023.
+  * [Merged with latest default config](https://github.com/SpoddyCoder/x4-controller-config/commit/3e03cf9bc047056156bb7be228fa6206fdf14346) to capture game updates to control bindings since 2023.
   * See [changelog](./CHANGELOG.md).
 * TODO: Preserve default keyboard + mouse functionality for seamless mixed use.
   * Acheived by updating the Steam Controller config to use different keys mapped to the modifiers.

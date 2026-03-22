@@ -7,7 +7,7 @@ In addition to the benefits of treating this like code in source control, there 
   * [Merged with latest default config](https://github.com/SpoddyCoder/x4-controller-config/commit/3e03cf9bc047056156bb7be228fa6206fdf14346) to capture game updates to control bindings since 2023.
   * See [changelog](./CHANGELOG.md).
 * Preserve default keyboard + mouse functionality for seamless mixed use.
-  * See (Modified Steam Controller Layout)[#modified-steam-controller-layout] for more details.
+  * See [Modified Steam Controller Layout](#modified-steam-controller-layout) for more details.
 
 
 ## Usage

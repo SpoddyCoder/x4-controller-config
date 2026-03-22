@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.1 Candidate
+
+### Modified
+* Fixed Eillis-v185 configs: strafe right / fire weapon conflict
+* Updated spoddycoder profile from Eillis' base for my preferences
+
+
 ## v1.1.0 Release
 
 ### Added
@@ -10,6 +17,7 @@
 * Removed config lines no longer supported by v185 spec.
 * All versions to have id and comment
 * Updated docs
+
 
 ## v1.0.0 Release
 

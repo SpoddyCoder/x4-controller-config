@@ -50,7 +50,7 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 
 
 ## Modified Steam Controller Layout: `SpoddyCoder-X4-Layout`
-* NOTE: this applies to the main (inputmap_5.xml)[./inputmap_5.xml] profile, as well as the (spoddycoder)[./versions/185_4_spoddycoder.xml] & (default-ellis-remamp)[./versions/185_5_default-eillis-remap.xml] versions
+* NOTE: this applies to the main [inputmap_5.xml](./inputmap_5.xml) profile, as well as the [spoddycoder](./versions/185_4_spoddycoder.xml) & [default-ellis-remamp](./versions/185_5_default-eillis-remap.xml) versions
   * To benefit from the v185 update but still use Eillis' original steam controller layout, use the [185_5_default-ellis](./versions/185_5_default-eillis.xml) version.
   * TODO: reinstate all the default controls that Eillis had to remove to make room for the modifiers.
 * To preserve standard keyboard controls, we need to use different modifiers keys. My steam controller layout can be found in the community setups.

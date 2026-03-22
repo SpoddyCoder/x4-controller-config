@@ -1,8 +1,9 @@
 # Changelog
 
-## v1.1.0 Candidate
+## v1.1.0 Release
 
 ### Added
+* Removed config lines no longer supported by v185 spec.
 * `version/docs` folder for info on specific versions
 * spoddycoder profile + doc to `versions/`
 

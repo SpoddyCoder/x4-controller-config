@@ -3,11 +3,11 @@
 ## v1.1.0 Release
 
 ### Added
-* Removed config lines no longer supported by v185 spec.
 * `version/docs` folder for info on specific versions
 * spoddycoder profile + doc to `versions/`
 
 ### Modified
+* Removed config lines no longer supported by v185 spec.
 * All versions to have id and comment
 * Updated docs
 

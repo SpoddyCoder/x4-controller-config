@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.1
+## v1.1.0 Candidate
+
+### Added
+* `version/docs` folder for info on specific versions
+* spoddycoder profile + doc to `versions/`
 
 ### Modified
-* all versions to have id and comment
-
+* All versions to have id and comment
+* Updated docs
 
 ## v1.0.0 Release
 
@@ -12,7 +16,7 @@
 * README
 * CHANGELOG
 * gitignore
-* main `inputmap_5.xml` with full commit history
+* Main `inputmap_5.xml` with full commit history
 * Version history
   * Eillis' original config
   * Default v185 config

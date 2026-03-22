@@ -9,16 +9,6 @@ In addition to the benefits of treating this like code in source control, there 
 * TODO: Preserve default keyboard + mouse functionality for seamless mixed use.
   * Acheived by updating the Steam Controller config to use different keys mapped to the modifiers.
 
-TODO: Further modified for my preferences... 
-
-* Revised + inverted flight axes - FPV pilots might find mine a more natural fit.
-* Switched primary fire to right trigger & secondary to left.
-  * Same for related controls like change primary and secondary weapon groups.
-* Walking controls:
-  * A button to interact.
-  * L trigger to run.
-  * L stick press to crouch (L mouse button in Eillis' config).
-
 ## Usage
 * Setup Steam controller support per [Eillis' guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2954560643).
 * Drag `inputmap_5.xml` into your `<Your documents>/Egosoft/X4/<numbers>/` folder.
@@ -30,16 +20,20 @@ TODO: Further modified for my preferences...
 * Remember to save to profile 5 as you make changes, this will serve as your backup.
 * If you want to track your changes in git, see [Setup For Dev](#setup-for-dev).
 
-## Version History: (`versions/` directory)
+## Version History: `versions/`
 * `158_1_eillis.xml` - Eillis' original config. `v158` spec, 1st profile slot.
 * `185_1_default.xml` - latest default config shipped with the game. `v185` spec, 1st profile slot.
 * `185_5_default-eillis.xml` - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
+* `185_4_spoddycoder.xml` - my config, uses default-eillis as a base, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
+  * See [spoddycoder.md](./versions/docs/spoddycoder..md) for more details.
 
 ## Setup For Dev
 Making changes to the **in-game** `inputmap_5.xml` should be reflected directly in the checked out repo version, so we can see the diff and commit changes.
 
-* Run `cmd` (as admin) and create a link to the config file in the game directory to wherever you've checked out the repo...
-* `mklink "C:\Users\{USERNAME}}\Documents\Egosoft\X4\10112698\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\inputmap_5.xml"`
+* Run `cmd` (as admin) and create a link to the config file in the game directory to wherever you've checked out the repo, eg:
+* `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\10112698\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\inputmap_5.xml"`
+* You can ofc use any of the versions, eg:
+* `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\10112698\inputmap_4.xml" "C:\Users\{USERNAME}\x4-controller-config\versions\185_4_spoddycoder.xml"`
 
 ### WSL dev limitations
 * Getting a link between a file located on the WSL instance and a file on the windows host is problematic - the two approaches you might try both have issues...

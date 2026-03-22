@@ -7,7 +7,7 @@ In addition to the benefits of treating this like code in source control, there 
   * [Merged with latest default config](https://github.com/SpoddyCoder/x4-controller-config/commit/3e03cf9bc047056156bb7be228fa6206fdf14346) to capture game updates to control bindings since 2023.
   * See [changelog](./CHANGELOG.md).
 * Preserve default keyboard + mouse functionality for seamless mixed use.
-  * See [Modified Steam Controller Layout](#modified-steam-controller-layout) for more details.
+  * See [Modified Steam Controller Layout](#modified-steam-controller-layout-spoddycoder-x4-layout) for more details.
 
 
 ## Usage
@@ -23,11 +23,11 @@ In addition to the benefits of treating this like code in source control, there 
 * If you want to track your changes in git, see [Setup For Dev](#setup-for-dev).
 
 ## Version History: `versions/`
-* [158_1_eillis.xml](./versions/158_1_eillis.xml) - Eillis' original config. `v158` spec, 1st profile slot.
-* [185_1_default.xml](./versions/185_1_default.xml) - latest default config shipped with the game. `v185` spec, 1st profile slot.
-* [185_5_default-eillis.xml](./versions/185_5_default-eillis.xml) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
-* [185_5_default-eillis-remap.xml](./versions/185_5_default-eillis-remap.xml) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout. `v185` spec, 5th profile slot.
-* [185_4_spoddycoder.xml](./versions/185_4_spoddycoder.xml) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
+* [158_1_eillis.xml](./versions/docs/158_1_eillis.md) - Eillis' original config. `v158` spec, 1st profile slot.
+* [185_1_default.xml](./versions/docs/185_1_default.md) - latest default config shipped with the game. `v185` spec, 1st profile slot.
+* [185_5_default-eillis.xml](./versions/docs/185_5_default-eillis.md) - latest default config merged with Eillis' config. `v185` spec, 5th profile slot.
+* [185_5_default-eillis-remap.xml](./versions/docs/185_5_default-eillis-remap.md) - latest default config merged with Eillis' config, remapped to use the `SpoddyCoder-X4-Layout` Steam Controller layout. `v185` spec, 5th profile slot.
+* [185_4_spoddycoder.xml](./versions/docs/185_4_spoddycoder.md) - my config, uses the `SpoddyCoder-X4-Layout`, modded for a "FPV" drone flight style. `v185` spec, 4th profile slot.
 
 
 ## Setup For Dev
@@ -50,8 +50,8 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 
 
 ## Modified Steam Controller Layout: `SpoddyCoder-X4-Layout`
-* NOTE: this applies to the main [inputmap_5.xml](./inputmap_5.xml) profile, as well as the [spoddycoder](./versions/185_4_spoddycoder.xml) & [default-ellis-remamp](./versions/185_5_default-eillis-remap.xml) versions
-  * To benefit from the v185 update but still use Eillis' original steam controller layout, use the [185_5_default-ellis](./versions/185_5_default-eillis.xml) version.
+* NOTE: this applies to the main [inputmap_5.xml](./inputmap_5.xml) profile, as well as the [spoddycoder](./versions/docs/185_4_spoddycoder.md) & [default-ellis-remap](./versions/docs/185_5_default-eillis-remap.md) versions
+  * To benefit from the v185 update but still use Eillis' original steam controller layout, use the [185_5_default-ellis](./versions/docs/185_5_default-eillis.md) version.
   * TODO: reinstate all the default controls that Eillis had to remove to make room for the modifiers.
 * To preserve standard keyboard controls, we need to use different modifiers keys. My steam controller layout can be found in the community setups.
 * It remaps Eillis' orginals to use new unused keys...

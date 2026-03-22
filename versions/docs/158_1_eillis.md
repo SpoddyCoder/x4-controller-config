@@ -1,5 +1,5 @@
 # Eillis' Original Profile
-* `158_1_eillis.xml`
+* [158_1_eillis.xml](../158_1_eillis.xml)
 * `v158` spec, 1st profile slot.
 
 

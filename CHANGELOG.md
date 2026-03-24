@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.0 Release
+
+## Modified
+* Updated `inputmap_5.xml` to track latest changes to `SpoddyCoder-v185` profile.
+
+
 ## v1.0.0 Release
 
 ### ADDED

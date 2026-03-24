@@ -2,7 +2,7 @@
 * [185_1_eillis.xml](185_1_eillis.xml)
 * `v185` spec
 * 1st profile slot
-* Uses `X4 Eilli's Gamepad` layout
+* Uses `X4 Eillis' Gamepad` layout
 
 
 ## Description

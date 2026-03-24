@@ -7,7 +7,7 @@ Y  = Y button, Yk = Y Key
 dp = double press
 ```
 
-## Steam Controller Layout: `X4 Eilli's Gamepad`
+## Steam Controller Layout: `X4 Eillis' Gamepad`
 
 ### Steam Controller + Keyboard Bindings
 ----------------------------------------------------------------------------------------------

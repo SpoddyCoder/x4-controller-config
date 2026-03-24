@@ -1,5 +1,5 @@
 # SpoddyCoder Profile
-* [185_5_spoddycoder.xml](185_4_spoddycoder.xml)
+* [185_5_spoddycoder.xml](185_5_spoddycoder.xml)
 * `v185` spec
 * 5th profile slot
 * Uses `SpoddyCoder-X4-Layout` Steam Controller layout.

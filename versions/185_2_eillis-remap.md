@@ -2,7 +2,7 @@
 * [185_2_eillis-remap.xml](185_2_eillis-remap.xml)
 * `v185` spec
 * 2nd profile slot
-* Uses `SpoddyCoder-X4-Layout` Steam Controller layout.
+* Requires `SpoddyCoder-X4-Layout` Steam Controller layout.
 
 
 ## Description

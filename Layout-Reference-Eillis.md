@@ -1,4 +1,6 @@
 # Eillis' Layout Reference
+
+## Steam Controller Layout: `X4 Eillis' Gamepad`
 ```
 A  = A button, Ak = A Key
 B  = B button, Bk = B Key
@@ -7,9 +9,7 @@ Y  = Y button, Yk = Y Key
 dp = double press
 ```
 
-## Steam Controller Layout: `X4 Eillis' Gamepad`
-
-### Steam Controller + Keyboard Bindings
+### Controller + Keyboard Bindings
 ----------------------------------------------------------------------------------------------
 | Controller Input    | No Modifier | Hold X       | Hold Y      | Hold Back   | Hold Start  |
 |---------------------|-------------|--------------|-------------|-------------|-------------|

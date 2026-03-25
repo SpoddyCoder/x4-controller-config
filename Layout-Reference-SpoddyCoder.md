@@ -1,14 +1,5 @@
 # SpoddyCoder's Layout Reference
-```
-A  = A button, Ak = A Key
-B  = B button, Bk = B Key
-X  = X button, Xk = X Key
-Y  = Y button, Yk = Y Key
-dp = double press
-```
-
-## Steam Controller Layout: `SpoddyCoder-X4-Layout`
-* To preserve standard keyboard controls, we need to use different modifiers keys. 
+* To preserve standard keyboard controls, we need to use different modifier keys. 
 * My steam controller layout can be found in the community setups. It remaps Eillis' orginals to use new unused keys...
 * W -> ;
   * `INPUT_KEYCODE_W` -> `INPUT_KEYCODE_SEMICOLON`
@@ -43,8 +34,16 @@ dp = double press
   * `INPUT_KEYCODE_R_SHIFT` -> `INPUT_KEYCODE_PERIOD_SHIFT`
   * `INPUT_KEYCODE_R_CONTROL` -> `INPUT_KEYCODE_PERIOD_CONTROL`
 
+## Steam Controller Layout: `SpoddyCoder-X4-Layout`
+```
+A  = A button, Ak = A Key
+B  = B button, Bk = B Key
+X  = X button, Xk = X Key
+Y  = Y button, Yk = Y Key
+dp = double press
+```
 
-### Steam Controller + Keyboard Bindings
+### Controller + Keyboard Bindings
 ----------------------------------------------------------------------------------------------
 | Controller Input    | No Modifier | Hold X       | Hold Y      | Hold Back   | Hold Start  |
 |---------------------|-------------|--------------|-------------|-------------|-------------|

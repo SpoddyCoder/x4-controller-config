@@ -2,7 +2,7 @@
 * [185_5_spoddycoder.xml](185_5_spoddycoder.xml)
 * `v185` spec
 * 5th profile slot
-* Uses `SpoddyCoder-X4-Layout` Steam Controller layout.
+* Requires `SpoddyCoder-X4-Layout` Steam Controller layout.
 
 
 ## Description
@@ -13,6 +13,8 @@
   * Inverted pitch / look.
 * Switched primary fire to right bumper & secondary to left.
   * Plus related controls: primary and secondary weapon groups + duplicated controls with modifiers.
+* Tweaked controller feel
+  * Substantially reduced deadzone.
 
 
 ## Steam Controller Layout

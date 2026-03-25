@@ -3,6 +3,7 @@
 ## v1.2.0 Candidate
 
 ### Modified
+* Re-jigged repo structure
 * Installation instructions
 * Improved docs
 * SpoddyCoder profile with more tweaks

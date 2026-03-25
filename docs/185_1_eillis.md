@@ -1,5 +1,5 @@
 # Eillis' Original Profile Updated to v185 Spec
-* [185_1_eillis.xml](185_1_eillis.xml)
+* [185_1_eillis.xml](../versions/185_1_eillis.xml)
 * `v185` spec
 * 1st profile slot
 * Requires `X4 Eillis' Gamepad` layout

@@ -1,5 +1,5 @@
 # SpoddyCoder Profile
-* [185_5_spoddycoder.xml](185_5_spoddycoder.xml)
+* [185_5_spoddycoder.xml](../versions/185_5_spoddycoder.xml)
 * `v185` spec
 * 5th profile slot
 * Requires `SpoddyCoder-X4-Layout` Steam Controller layout.
@@ -102,3 +102,16 @@
 | Zoom In                 | Start + LT            | PageDown              | `INPUT_STATE_CAMERA_ZOOMIN`   |
 | Zoom Out                | Start + RT            | PageUp                | `INPUT_STATE_CAMERA_ZOOMOUT`  |
 -----------------------------------------------------------------------------------------------------------
+
+
+## Tested
+* Primary functions - OK
+* Weapon Modifiers - OK
+* Targetting Modifiers - OK
+* Systems + Interaction Modifiers - Mostly OK
+  * Dialog 2 - doesnt work in station, works in space
+    * Bound to dock, could be reason? as this takes you straight back to ship when in station but outside of a dialog.
+  * Dialog 3 - doesn't work in space, works in station
+  * The autopilot / travel mode is a little buggy, but does work
+    * Coming out of autopilot goers straight into travel mode and then cancelling travel mode results in it immediately being re-enabled, so you have to press again to come out of travel mode.
+* Camera Modifiers - OK

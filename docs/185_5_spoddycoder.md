@@ -9,7 +9,6 @@
 * This is the one I use - Eillis' base, but with some tweaks...
 * Updated to use the `SpoddyCoder-X4-Layout` Steam Controller layout
 * Revised flight axes
-  * "FPV acro mode 2" style stick setup.
   * Inverted pitch / look.
 * Switched primary fire to right bumper & secondary to left.
   * Plus related controls: primary and secondary weapon groups + duplicated controls with modifiers.

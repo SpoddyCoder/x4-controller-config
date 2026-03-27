@@ -3,11 +3,11 @@
   <config>
     <param name="invert_steering_yaw" value="false"/>
     <param name="invert_steering_pitch" value="true"/>
-    <param name="invert_steering_roll" value="true"/>
+    <param name="invert_steering_roll" value="false"/>
     <param name="invert_mouse_roll" value="true"/>
     <param name="invert_direct_mouse_steering_roll" value="true"/>
     <param name="invert_throttle" value="false"/>
-    <param name="invert_strafe_left_right" value="true"/>
+    <param name="invert_strafe_left_right" value="false"/>
     <param name="invert_strafe_up_down" value="false"/>
     <param name="invert_fp_yaw" value="false"/>
     <param name="invert_fp_pitch" value="true"/>
@@ -459,8 +459,7 @@
   <range id="INPUT_RANGE_THROTTLE" source="INPUT_SOURCE_VIVE_LEFT_AXES" code="INPUT_JOYAXIS_VRTRIGGER_L"/>
   <range id="INPUT_RANGE_STRAFE_LEFT_RIGHT" source="INPUT_SOURCE_OCULUS_TOUCH_AXES" code="INPUT_JOYAXIS_X"/>
   <range id="INPUT_RANGE_STRAFE_LEFT_RIGHT" source="INPUT_SOURCE_VIVE_LEFT_AXES" code="INPUT_JOYAXIS_X"/>
-  <range id="INPUT_RANGE_STRAFE_LEFT_RIGHT" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_Z"/>
-  <range id="INPUT_RANGE_STRAFE_LEFT_RIGHT" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RZ"/>
+  <range id="INPUT_RANGE_STRAFE_LEFT_RIGHT" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_X"/>
   <range id="INPUT_RANGE_STRAFE_UP_DOWN" source="INPUT_SOURCE_OCULUS_TOUCH_AXES" code="INPUT_JOYAXIS_Y"/>
   <range id="INPUT_RANGE_STRAFE_UP_DOWN" source="INPUT_SOURCE_VIVE_LEFT_AXES" code="INPUT_JOYAXIS_Y"/>
   <range id="INPUT_RANGE_STRAFE_UP_DOWN" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_Y"/>
@@ -486,8 +485,9 @@
   <range id="INPUT_RANGE_FP_STRAFE" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_X"/>
   <range id="INPUT_RANGE_FP_STRAFE" source="INPUT_SOURCE_OCULUS_TOUCH_AXES" code="INPUT_JOYAXIS_X"/>
   <range id="INPUT_RANGE_FP_STRAFE" source="INPUT_SOURCE_VIVE_LEFT_AXES" code="INPUT_JOYAXIS_X"/>
-  <range id="INPUT_RANGE_STEERING_PRIMARY" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_X"/>
-  <range id="INPUT_RANGE_STEERING_SECONDARY" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RX"/>
+  <range id="INPUT_RANGE_STEERING_PRIMARY" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RX"/>
+  <range id="INPUT_RANGE_STEERING_SECONDARY" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_Z"/>
+  <range id="INPUT_RANGE_STEERING_SECONDARY" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RZ"/>
   <range id="INPUT_RANGE_CONTROLLERMOUSECURSOR_X" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RX"/>
   <range id="INPUT_RANGE_CONTROLLERMOUSECURSOR_Y" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_RY"/>
   <range id="INPUT_RANGE_MAP_PAN_LEFT_RIGHT" source="INPUT_SOURCE_JOYAXES" code="INPUT_JOYAXIS_X"/>

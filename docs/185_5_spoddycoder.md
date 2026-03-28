@@ -38,7 +38,7 @@
 | Magnet                  | Dpad Down             | Dpad Down             | `INPUT_STATE_LOOTMAGNET`, `INPUT_XBUTTON_DPAD_DOWN`                                                         |
 | Interact                | Back                  | Back                  | `INPUT_STATE_INTERACTION_MENU`, `INPUT_XBUTTON_BACK`                                                        |
 | Quick Action Menu       | Back dp               | \                     | `INPUT_ACTION_OPEN_COCKPIT_MENU`                                                                            |
-| Map                     | Start                 | Start                 | `INPUT_ACTION_OPEN_MAP`, `INPUT_XBUTTON_START`                                                              |
+| Map                     | Start                 | M                 | `INPUT_ACTION_OPEN_MAP`, `INPUT_XBUTTON_START`                                                              |
 | Options Menu            | Start dp              | /                     | `INPUT_ACTION_OPTIONSMENU`                                                                                  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

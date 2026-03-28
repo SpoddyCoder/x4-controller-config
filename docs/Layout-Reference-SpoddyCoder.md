@@ -62,8 +62,10 @@ dp = double press
 | LB                  |             | CTRL + ,     | SHIFT + ,   | 5           | +           |
 | RB                  |             | CTRL + .     | SHIFT + .   | 6           | -           |
 | Dpad Up             |             | CTRL + UP    |             |             | F1          |
+| Dpad Up dp          | NUM 9       |              |             |             |             |
 | Dpad Left           |             | CTRL + LEFT  |             |             | F2          |
 | Dpad Right          |             | CTRL + RIGHT |             |             | F3          |
 | Dpad Down           |             | CTRL + DOWN  |             |             | F4          |
+| Dpad Down dp        | NUM 8       |              |             |             |             |
 ----------------------------------------------------------------------------------------------
 

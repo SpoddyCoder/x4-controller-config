@@ -54,6 +54,7 @@
 | Turrets                 | X + Dpad Left         | CTRL + Left           | `INPUT_ACTION_TOGGLE_TURRET_ACTIVE`|
 | Drones                  | X + Dpad Right        | CTRL + Right          | `INPUT_ACTION_TOGGLE_DRONE_LAUNCH`|
 | Flight Asssist          | X + Dpad Down         | CTRL + Down           | `INPUT_ACTION_TOGGLE_FLIGHT_ASSIST`|
+| Switch Ammunition       | X + Back              | CTRL + V              | `INPUT_ACTION_CYCLE_NEXT_ACTIVE_WEAPON_AMMO`|
 | Missions                | X + Start             | CTRL + M              | `INPUT_ACTION_OPEN_MISSIONS`|
 -----------------------------------------------------------------------------------------------------
 

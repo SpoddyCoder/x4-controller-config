@@ -69,6 +69,7 @@
 | Change subsystem        | Y + Dpad Up/Down      | SHIFT + Up/Down       | `INPUT_ACTION_PREV_SUBCOMPONENT`, `INPUT_ACTION_NEXT_SUBCOMPONENT`|
 | Fire primary at cursor  | Y + RB                | SHIFT + .             | `INPUT_STATE_FIRE_PRIMARY_WEAPON_AT_CURSOR`|
 | Fire secondary weapon   | Y + LB                | SHIFT + ,             | `INPUT_STATE_FIRE_SECONDARY_WEAPON`|
+| Toggle Radar Mode       | Y + Back              | SHIFT + V             | `INPUT_ACTION_TOGGLE_RADAR_MODE`|
 -----------------------------------------------------------------------------------------------------
 
 ### Systems + Interaction: `Hold Back`

@@ -96,10 +96,10 @@
 -----------------------------------------------------------------------------------------------------
 | In-Game Action          | Controller Input      | Key / Button Binding  | Inputmap Action / State |
 |-------------------------|-----------------------|-----------------------|-------------------------|
-| Camera Up               | Start + Dpad Up       | F1                    | `INPUT_STATE_CAMERA_DOWN`|
+| Camera Down             | Start + Dpad Up       | F1                    | `INPUT_STATE_CAMERA_DOWN`|
 | Camera Left             | Start + Dpad Left     | F2                    | `INPUT_STATE_CAMERA_LEFT`|
 | Camera Right            | Start + Dpad Right    | F3                    | `INPUT_STATE_CAMERA_RIGHT`|
-| Camera Down             | Start + Dpad Down     | F4                    | `INPUT_STATE_CAMERA_UP`|
+| Camera Up               | Start + Dpad Down     | F4                    | `INPUT_STATE_CAMERA_UP`|
 | Cycle camera            | Start + LB            | +                     | `INPUT_ACTION_CYCLE_VIEW`|
 | Target camera           | Start + RB            | -                     | `INPUT_ACTION_TARGET_VIEW`|
 | Zoom In                 | Start + LT            | PageDown              | `INPUT_STATE_CAMERA_ZOOMIN`|

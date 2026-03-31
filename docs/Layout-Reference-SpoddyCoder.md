@@ -56,7 +56,7 @@ dp = double press
 | Y                   |             | CTRL + Yk    |             | 4           |             |
 | Y dp                | ]           | CTRL + ]     |             | NUM 4       |             |
 | Back                |             | CTRL + V     | SHIFT + V   |             |             |
-| Back dp             | \           | CTRL + \     | SHIFT + \   |             |             |
+| Back dp             | NUM 7       | CTRL + \     | SHIFT + \   |             |             |
 | Start               | M           | CTRL + M     | SHIFT + M   |             |             |
 | Start dp            | /           | CTRL + /     | SHIFT + /   |             |             |
 | LB                  |             | CTRL + ,     | SHIFT + ,   | 5           | +           |

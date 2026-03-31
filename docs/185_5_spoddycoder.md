@@ -39,7 +39,7 @@
 | Scan                    | Dpad Right            | Dpad Right            | `INPUT_ACTION_SCAN_ACTION`|
 | Magnet                  | Dpad Left             | Dpad Left             | `INPUT_STATE_LOOTMAGNET`|
 | Interact                | Back                  | Back                  | `INPUT_STATE_INTERACTION_MENU`|
-| Quick Action Menu       | Back dp               | \                     | `INPUT_ACTION_OPEN_COCKPIT_MENU`|
+| Quick Action Menu       | Back dp               | NUM 7                 | `INPUT_ACTION_OPEN_COCKPIT_MENU`|
 | Map                     | Start                 | M                     | `INPUT_ACTION_OPEN_MAP`|
 | Options Menu            | Start dp              | /                     | `INPUT_ACTION_OPTIONSMENU`|
 ------------------------------------------------------------------------------------------------------=

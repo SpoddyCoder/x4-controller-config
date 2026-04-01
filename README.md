@@ -30,7 +30,7 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 
 * Run `cmd` (as admin)
 * Create a link in the game directory, pointing to the config file you want to use, wherever you've checked out the repo, eg:
-  * `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\{NUMBERS}\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\versions\inputmap_5.xml"`
+  * `mklink "C:\Users\{USERNAME}\Documents\Egosoft\X4\{NUMBERS}\inputmap_5.xml" "C:\Users\{USERNAME}\x4-controller-config\inputmap_5.xml"`
 * Don't forget to actually save the controller profile in-game after making changes.
 * Similarly, if you make changes to the file directly, you'll need to load it in-game.
 
@@ -38,7 +38,7 @@ Making changes to the **in-game** `inputmap_5.xml` should be reflected directly 
 * Getting a link between a file located on the WSL instance and a file on the windows host is problematic - the two approaches you might try both have issues...
   * Cannot simply move the repo to a windows mounted dirctory on the WSL instance - this has performance + other issues when using an IDE on the host.
   * Not sure it's possible to have the windows host application (x4) access a file on a WSL instance filesystem.
-    * Even if you could - this would mean you now require the WSL instance running to use the config... not ideal.
+  * Even if you could - this would mean you now require the WSL instance running to use the config... not ideal.
 * Recommend you just use the windows host directly for this project. Don't waste your time trying like I did...
 
 

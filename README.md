@@ -1,7 +1,5 @@
 # x4-controller-config
-Full controller support for X4 Foundations, with improved mixed controller / kb + mouse functionality. 
-
-Based on Eillis' great work...
+Full controller support for X4 Foundations. Based on Eillis' great work...
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2954560643
 

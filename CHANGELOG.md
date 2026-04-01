@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0 Candidate
+## v1.2.0 Release
 
 ### Modified
 * Re-jigged repo structure

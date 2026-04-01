@@ -1,13 +1,10 @@
 # SpoddyCoder Profile
-* [185_5_spoddycoder.xml](../versions/185_5_spoddycoder.xml)
-* `v185` spec
 * 5th profile slot
 * Requires `SpoddyCoder-X4-Layout` Steam Controller layout.
+  * See [Steam Layout Reference](./steam-layout.md) for controller -> keyboard bindings.
 
 
 ## Description
-* This is the one I use - Eillis' base, but with some tweaks...
-* Updated to use the `SpoddyCoder-X4-Layout` Steam Controller layout
 * Revised flight axes
   * Inverted pitch / look.
 * Switched primary fire to right bumper & secondary to left.
@@ -17,7 +14,7 @@
 
 
 ## Steam Controller Layout
-* See [SpoddyCoder's Layout Reference](./Layout-Reference-SpoddyCoder.md) for steam controller + keyboard bindings.
+
 
 
 ## In-Game Mappings

@@ -1,17 +1,8 @@
 # Eillis' Original Profile
-* [158_1_eillis.xml](../versions/158_1_eillis.xml)
-* `v158` spec
 * 1st profile slot
-* Requires `X4 Eillis' Gamepad` layout
-
-
-## Description
-* The original inputmap from Eillis.
-
-
-## Steam Controller Layout
-* See [Eillis' Layout Reference](./Layout-Reference-Eillis.md) for steam controller + keyboard bindings.
-
+* Requires `X4 Eillis' Gamepad` steam controller layout
+  * See [Eillis' Layout Reference](./158_eillis.md) for steam controller -> keyboard bindings.
+  
 
 ## In-Game Mappings
 

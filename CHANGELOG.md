@@ -8,9 +8,6 @@
 * Improved docs
 * SpoddyCoder profile with more tweaks
 
-### Removed
-* `inputmap_5.xml`
-
 
 ## v1.1.0 Release
 

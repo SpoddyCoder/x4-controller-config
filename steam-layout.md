@@ -26,7 +26,7 @@ dp = double press
 | Back dp             | NUM 7       | CTRL + \     | SHIFT + \   |             |             |
 | Start               | M           | CTRL + M     | SHIFT + M   |             |             |
 | Start dp            | /           | CTRL + /     | SHIFT + /   |             |             |
-| LB                  |             | CTRL + ,     | SHIFT + ,   | 5           | +           |
+| LB                  |             | CTRL + ,     | SHIFT + ,   | 5           | =           |
 | RB                  |             | CTRL + .     | SHIFT + .   | 6           | -           |
 | Dpad Up             |             | CTRL + UP    |             |             | F1          |
 | Dpad Up dp          | NUM 9       |              |             |             |             |
